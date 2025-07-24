@@ -74,14 +74,20 @@
                     </ul>
                 </li>
 
+                <li class="list-group-item" onclick="toggleSection('list-itens')" style="cursor: pointer;">
+                    <i class="fa-solid fa-circle-plus"></i> Lista
+                </li>
                 <!-- Listas -->
-                <li class="list-group-item"><i class="fa-solid fa-rectangle-list"></i> Listas</li>
-                <a href="/listarEstado"><li class="list-group-item">Lista Estado</li></a>
-                <a href="/listarCidade"><li class="list-group-item">Listar Cidade</li></a>
-                <a href="/listarFuncionario"><li class="list-group-item">Listar Funcionario</li></a>
-                <a href="/listarCliente"><li class="list-group-item">Lista Cliente</li></a>
-                <a href="/listarFornecedor"><li class="list-group-item">Lista Fornecedor</li></a>
-                <a href="/listarProduto"><li class="list-group-item">Lista Produto</li></a>
+                <li id="list-itens" style="display: none; padding: 0; border: none;">
+                    <ul class = "list-group">
+                        <a href="/listarEstado"><li class="list-group-item">Lista Estado</li></a>
+                        <a href="/listarCidade"><li class="list-group-item">Lista Cidade</li></a>
+                        <a href="/listarFuncionario"><li class="list-group-item">Lista Funcionario</li></a>
+                        <a href="/listarCliente"><li class="list-group-item">Lista Cliente</li></a>
+                        <a href="/listarFornecedor"><li class="list-group-item">Lista Fornecedor</li></a>
+                        <a href="/listarProduto"><li class="list-group-item">Lista Produto</li></a>
+                    </ul>
+                </li>
 
             </ul>
         </div>
